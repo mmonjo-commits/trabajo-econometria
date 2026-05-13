@@ -2036,7 +2036,6 @@ table td .vd { font-family: var(--font-body); }
       <span>Evidencia · Outputs OxMetrics</span>
     </div>
     <h2>Los datos vienen de aquí.</h2>
-    <p class="lede">Capturas reales de los outputs ejecutados en OxMetrics. Todos los coeficientes, p-valores y estadísticos del trabajo se extraen directamente de estas salidas del programa. <strong>R² ajustado = <span style="color:var(--sun)">0.499</span></strong>.</p>
 
     <div class="oxm-meta">
       <div class="oxm-meta-item"><span class="led"></span><span class="k">Software:</span><span class="v">OxMetrics</span></div>
@@ -2462,7 +2461,6 @@ table td .vd { font-family: var(--font-body); }
   <div class="section-inner">
     <div class="section-eyebrow"><span class="num">05</span>Diagramas de dispersión<span class="oxm-link" style="margin-left:1rem;font-size:0.65rem;letter-spacing:1px;color:var(--moss);font-weight:600">→ Capturas 03 + 07</span></div>
     <h2>¿Hay <em>relaciones lineales</em> antes de regresionar?</h2>
-    <p class="lede">Cada <strong>X negra</strong> es un país. Sin línea de regresión: la nube de puntos habla por sí sola. Pulsa <strong>play</strong> para verlas formarse.</p>
     <div class="scatter-grid">
       <div class="scatter-card"><div class="scatter-head"><div class="var-meta"><span class="symbol">X₁ · GDPpc</span><span class="name">PIB per cápita</span></div><div class="scatter-stats"><span class="s">corr = <b id="corrGdp">—</b></span></div></div><div class="scatter-canvas-wrap"><button class="play-btn" data-target="gdp"><span class="tri"></span>Play</button><canvas id="scatGdp"></canvas></div></div>
       <div class="scatter-card"><div class="scatter-head"><div class="var-meta"><span class="symbol">X₃ · CO₂</span><span class="name">Emisiones per cápita</span></div><div class="scatter-stats"><span class="s">corr = <b id="corrCO2">—</b></span></div></div><div class="scatter-canvas-wrap"><button class="play-btn" data-target="co2"><span class="tri"></span>Play</button><canvas id="scatCO2"></canvas></div></div>
@@ -2759,7 +2757,6 @@ table td .vd { font-family: var(--font-body); }
           <div class="fiv-row"><span class="fiv-name">OECD×CO₂<span class="vd">interacción</span></span><div class="fiv-bar-wrap"><div class="fiv-bar warn" data-w="90.6"></div></div><span class="fiv-val warn">9.06</span></div>
         </div>
         <div class="verdict-big ok"><div class="v-icon">✓</div><div class="v-text"><div class="v-tag">Multicolinealidad bajo control</div><div class="v-detail">FIV máx = 9.06 en la interacción (esperable por construcción). Las cinco explicativas <strong>no interaccionadas</strong> tienen FIV &lt; 5.</div></div></div>
-        <p class="small muted" style="margin-top:0.85rem;font-style:italic">Decisión: mantenemos la interacción porque su inclusión es parte de la pregunta de investigación, y además resulta estadísticamente significativa (p = 0.017).</p>
 
         <h4 style="margin-top:1.5rem;font-family:var(--font-display);font-size:1rem;color:var(--forest)">Matriz de correlaciones de Pearson</h4>
         <p class="small muted" style="margin-bottom:0.6rem">Coeficientes de correlación lineal entre las 6 explicativas (el enunciado pide ambos: correlaciones <em>y</em> FIV). Los valores cercanos a ±1 indican alta colinealidad; los más altos involucran la interacción <code>OECD×CO₂</code>, lo cual es esperable porque se construye como producto.</p>
