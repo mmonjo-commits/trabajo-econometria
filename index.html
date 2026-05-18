@@ -2802,7 +2802,7 @@ table td .vd { font-family: var(--font-body); }
       <h3 style="margin-top:0.4rem">¿Sirve el modelo en su conjunto?</h3>
       <p class="small muted">H₀: todos los β = 0 (excepto la constante). Si NO rechazamos, el modelo no aporta información significativa.</p>
       <div class="test-stats">
-        <div class="ts ok"><div class="lab">F</div><div class="val">8.46</div></div>
+        <div class="ts ok"><div class="lab">F</div><div class="val">8.48</div></div>
         <div class="ts ok"><div class="lab">p-valor</div><div class="val">&lt;0.0001</div></div>
         <div class="ts"><div class="lab">gl numerador</div><div class="val">6</div></div>
         <div class="ts"><div class="lab">gl denomin.</div><div class="val">39</div></div>
@@ -2859,11 +2859,11 @@ table td .vd { font-family: var(--font-body); }
         <h3 style="margin-top:0.4rem">¿Pesan igual FDI y NATRES?</h3>
         <p class="small muted">H₀: β<sub>FDI</sub> = β<sub>NATRES</sub>. Si rechazo, una variable empuja a las renovables más fuerte que la otra.</p>
         <div class="test-stats">
-          <div class="ts rej"><div class="lab">F</div><div class="val">18.06</div></div>
-          <div class="ts rej"><div class="lab">p-valor</div><div class="val">0.0001</div></div>
+          <div class="ts rej"><div class="lab">F</div><div class="val">17.29</div></div>
+          <div class="ts rej"><div class="lab">p-valor</div><div class="val">0.00017</div></div>
           <div class="ts"><div class="lab">gl</div><div class="val">1, 39</div></div>
         </div>
-        <div class="verdict-big rej"><div class="v-icon">✗</div><div class="v-text"><div class="v-tag">Rechazo H₀ con holgura</div><div class="v-detail">p = 0.0001. <strong>FDI y NATRES NO son equivalentes</strong>. La diferencia (β̂<sub>FDI</sub> − β̂<sub>NATRES</sub>) ≈ −4.69 p.p.: NATRES empuja al alza, FDI a la baja.</div></div></div>
+        <div class="verdict-big rej"><div class="v-icon">✗</div><div class="v-text"><div class="v-tag">Rechazo H₀ con holgura</div><div class="v-detail">p = 0.00017. <strong>FDI y NATRES NO son equivalentes</strong>. La diferencia (β̂<sub>FDI</sub> − β̂<sub>NATRES</sub>) ≈ −4.63 p.p.: NATRES empuja al alza, FDI a la baja.</div></div></div>
         <div class="var-legend">
           <span class="vl-title">Variables del contraste</span>
           <span class="vl-item"><b>FDI</b> · Inversión Extranjera Directa (% PIB)</span>
@@ -2875,11 +2875,11 @@ table td .vd { font-family: var(--font-body); }
         <h3 style="margin-top:0.4rem">¿Cambia el modelo en OCDE?</h3>
         <p class="small muted">H₀: los coeficientes son iguales en países OCDE y no-OCDE (no hay cambio estructural). Modelo base sin dummy ni interacción.</p>
         <div class="test-stats">
-          <div class="ts ok"><div class="lab">F</div><div class="val">1.70</div></div>
-          <div class="ts ok"><div class="lab">p-valor</div><div class="val">0.160</div></div>
+          <div class="ts ok"><div class="lab">F</div><div class="val">1.73</div></div>
+          <div class="ts ok"><div class="lab">p-valor</div><div class="val">0.1508</div></div>
           <div class="ts"><div class="lab">gl</div><div class="val">5, 36</div></div>
         </div>
-        <div class="verdict-big ok"><div class="v-icon">✓</div><div class="v-text"><div class="v-tag">No rechazo H₀</div><div class="v-detail">p = 0.160. <strong>NO hay cambio estructural</strong> por OCDE en el modelo base. La distinción la captura ya la dummy + interacción.</div></div></div>
+        <div class="verdict-big ok"><div class="v-icon">✓</div><div class="v-text"><div class="v-tag">No rechazo H₀</div><div class="v-detail">p = 0.1508. <strong>NO hay cambio estructural</strong> por OCDE en el modelo base. La distinción la captura ya la dummy + interacción.</div></div></div>
         <div class="var-legend">
           <span class="vl-title">Variable del contraste</span>
           <span class="vl-item"><b>OECD</b> · dummy: 1 si país pertenece a OCDE, 0 si no</span>
